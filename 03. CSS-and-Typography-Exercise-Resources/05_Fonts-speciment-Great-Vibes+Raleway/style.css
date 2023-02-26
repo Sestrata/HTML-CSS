@@ -1,0 +1,14 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 50px;
+}
+
+h1, h2 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
