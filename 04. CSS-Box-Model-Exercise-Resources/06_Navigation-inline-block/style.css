@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    margin: 50px 50px 30px 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+header * {
+    display: inline-block;
+}
+
+header h1 {
+    margin-right: 80px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: green;
+    margin-right: 20px;
+}
+
+main {
+    margin: 0px 50px;
+}
