@@ -1,0 +1,101 @@
+body {
+    margin: 50px
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    position: absolute;
+    width: 20%;
+    display: inline-block;
+    border-left: 3px solid lightgray;
+    padding-left: 20px;
+    color: gray;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+blockquote>p:nth-child(2) {
+    text-align: right;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em/1.2;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 3px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+header {
+    position: relative;
+    display: block;
+}
+
+header p {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 2px;
+    margin: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+main {
+    display: inline-block;
+    width: 60%;
+}
+
+aside {
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 140px;
+}
+
+aside ul {
+    list-style: disc;
+}
+
+#first {
+    float: right;
+}
+
+#second {
+    float: left;
+}
+
+#align-block {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 30px;
+}
