@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+ul li a {
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}
+
+ul li a:hover {
+    background-color: lightblue;
+}
