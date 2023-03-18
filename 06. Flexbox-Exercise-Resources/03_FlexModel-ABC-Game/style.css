@@ -1,0 +1,66 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+span {
+    border: 1px black solid;
+    padding: 15px 20px;
+}
+
+
+div span:nth-child(10) {
+    order: 100;
+}
+
+div span:nth-child(7) {
+    order: 99;
+}
+
+div span:nth-child(3) {
+    order: 98;
+}
+
+div span:nth-child(1) {
+    order: 97;
+}
+
+div span:nth-child(5) {
+    order: 96;
+}
+
+div span:nth-child(6) {
+    order: 95;
+}
+
+div span:nth-child(9) {
+    order: 94;
+}
+
+div span:nth-child(8) {
+    order: 93;
+}
+
+div span:nth-child(4) {
+    order: 92;
+}
+
+div span:nth-child(12) {
+    order: 91;
+}
+
+div span:nth-child(2) {
+    order: 90;
+}
+
+div span:nth-child(11) {
+    order: 89;
+}
+
