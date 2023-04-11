@@ -1,0 +1,144 @@
+body {
+    margin: 50px;
+    background-color: rgb(238, 238, 238);
+    font-size: 23px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    position: absolute;
+    width: 40%;
+    display: inline-block;
+    border-left: 3px solid lightgray;
+    padding-left: 20px;
+    color: gray;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+blockquote>p:nth-child(2) {
+    text-align: right;
+}
+
+#align-block {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+header {
+    position: relative;
+    display: block;
+    padding: 0px;
+}
+
+header>p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+}
+
+a {
+    color: rgb(0 102, 0);
+    text-decoration: none;
+}
+
+#first {
+    float: right;
+    margin: 0px 0px 20px 20px;
+}
+
+#second {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+article:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1800px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+
+    #first {
+        float: none;
+    }
+
+    #second {
+        float: none;
+    }
+
+    section article:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section article header {
+        order: 1;
+    }
+
+    section article:nth-child(2) p:nth-child(2) {
+        order: 2;
+    }
+
+    blockquote {
+        display: block;
+        position: relative;
+        width: 80%;
+        order: 3;
+    }
+
+
+    #align-block {
+        display: block;
+        width: 100%;
+        order: 4;
+    }
+
+    section article:nth-child(2) p:nth-child(5) {
+        order: 5;
+    }
+}
